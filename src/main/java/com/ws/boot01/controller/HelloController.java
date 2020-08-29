@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("info")
     public String info(){
+        //开发人员修改第一次
         return "hello SpringBoot info";
     }
 }
